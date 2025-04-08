@@ -8,6 +8,11 @@ public class MessageApp {
     {
         this.messageService=messageService;
     }
+    //setter method to inject method MessageService
+    public void setMessageService(MessageService messageService)
+    {
+        this.messageService=messageService;
+    }
     public void printMessage()
     {
         System.out.println(messageService.getMessage());
