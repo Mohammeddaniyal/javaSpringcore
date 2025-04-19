@@ -7,7 +7,7 @@
 <bean id="engine" class="com.daniyal.springcore.Engine" >
 <constructor-arg value="Petrol" />
 </bean>
-<bean id="tyre" class="com.daniyal.springcore.Tyre" autowire="byName" />
-<bean id="glass" class="com.daniyal.springcore.Glass" autowire="byName" />
+<bean id="tyre" class="com.daniyal.springcore.Tyre"  />
+<bean id="glass" class="com.daniyal.springcore.Glass" />
 <bean id="car" class="com.daniyal.springcore.Car" autowire="constructor"/>
 </beans>

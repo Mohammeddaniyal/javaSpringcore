@@ -3,18 +3,13 @@ public class Car {
         private Engine engine;
         private Tyre tyre;
         private Glass glass;
-        public Car(Engine engine)
+        public Car(Engine engine,Tyre tyre,Glass glass)
         {
             this.engine=engine;
-        }
-        public void setTyre(Tyre tyre)
-        {
             this.tyre=tyre;
-        }
-        public void setGlass(Glass glass)
-        {
             this.glass=glass;
         }
+    
     public void drive()
     {
         engine.start();
