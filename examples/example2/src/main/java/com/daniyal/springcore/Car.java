@@ -11,6 +11,7 @@ public class Car {
     {
         engine.start();
         tyre.rotate();
+        glass.move();
         System.out.println("Car is moving....");
     }
 }
