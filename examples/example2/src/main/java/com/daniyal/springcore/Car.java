@@ -2,14 +2,14 @@ package com.daniyal.springcore;
 public class Car {
         private Engine engine;
         private Tyre tyre;
-        private Glass glass;
+        private Glass glass1;
         public void setEngine(Engine engine)
         {
             this.engine=engine;
         }
         public void setGlass(Glass glass)
         {
-            this.glass=glass;
+            this.glass1=glass;
         }
         public void setTyre(Tyre tyre)
         {
