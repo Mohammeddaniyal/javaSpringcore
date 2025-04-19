@@ -1,18 +1,21 @@
-plugins
-{
+plugins {
     id 'java'
 }
-group='com.daniyal'
-version='1.0.SNAPSHOT'
+
+group = 'com.daniyal'
+version = '1.0.SNAPSHOT'
 
 java {
-    sourceCompatibility= JavaVersion.VERSION_17
-    targetCompatibility= JavaVersion.VERSION_17
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 }
 
-repositories{
-    mavenCentral()
+repositories {
+    mavenCentral()  // Ensure you have this
 }
-dependencies{
-    implementation 'org.springframework:spring-context:6.1.4'
+
+dependencies {
+    implementation 'org.springframework:spring-context:6.1.4'  // Spring Context for component scanning
+    implementation 'org.springframework:spring-beans:6.1.4'    // Spring Beans for bean management
+    implementation 'org.springframework:spring-core:6.1.4'     // Core Spring functionalities
 }

@@ -1,7 +1,6 @@
 package com.daniyal.springcore;
 public class Car {
-    @AutoWired
-    private Engine engine;
+        private Engine engine;
     public void drive()
     {
         engine.start();
