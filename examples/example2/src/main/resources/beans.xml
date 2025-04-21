@@ -4,7 +4,7 @@
     xsi:schemaLocation="http://www.springframework.org/schema/beans
                         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-<bean id="engine" class="com.daniyal.springcore.Engine" >
+<bean id="daniyal" class="com.daniyal.springcore.Engine" >
 <constructor-arg value="Petrol" />
 </bean>
 <bean id="tyre" class="com.daniyal.springcore.Tyre"  />
