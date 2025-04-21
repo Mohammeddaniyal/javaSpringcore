@@ -1,0 +1,39 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Compiled Java binaries
+bin/
+build/
+
+# Temporary files
+*.log
+*.tmp
+
+# Eclipse / IntelliJ / NetBeans project files (if you ever use them)
+*.iml
+*.ipr
+*.iws
+.idea/
+.project
+.classpath
+.settings/
+nbproject/
+
+# VSCode specific
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Maven / Gradle
+target/
+out/
+*.log
+
+# Others
+*.swp
+*.swo
